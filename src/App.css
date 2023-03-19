@@ -1,0 +1,58 @@
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+
+#sun {
+  background-image: url(./images/sun.png);
+}
+
+#background {
+  background-image: url(./images/background.webp);
+}
+
+#mountain3 {
+  background-image: url(./images/mountain3.webp);
+}
+
+#mountain2 {
+  background-image: url(./images/mountain2.webp);
+}
+
+#mountain1 {
+  background-image: url(./images/mountain1.webp);
+}
+
+#cloud {
+  background-image: url(./images/cloud.png);
+  padding-left: 1000px;
+  opacity: 0.5;
+}
+
+#underwater {
+  background-image: url(./images/underwater.jpg);
+}
+
+#diver {
+  background-image: url(./images/diver.png);
+}
+
+#fish {
+  background-image: url(./images/fish.png);
+}
