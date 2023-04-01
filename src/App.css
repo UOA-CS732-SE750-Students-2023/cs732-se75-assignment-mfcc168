@@ -1,3 +1,19 @@
+#container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#title {
+  font-size: 40px;
+  color: orange;
+}
+
+#content {
+  font-size: 21px;
+  color: orange;
+}
+
 .animation, .animation_layer {
 	height: 1000px;
 }
@@ -41,18 +57,39 @@
 
 #cloud {
   background-image: url(./images/cloud.png);
-  padding-left: 1000px;
+  padding-left: 2000px;
   opacity: 0.5;
 }
 
-#underwater {
-  background-image: url(./images/underwater.jpg);
+#black_background {
+  background-color: black;
 }
 
-#diver {
-  background-image: url(./images/diver.png);
+#blue_background {
+  background-color: blue;
 }
 
-#fish {
-  background-image: url(./images/fish.png);
+#red_background {
+  background-color: red;
+}
+
+#green_background {
+  background-color: green;
+}
+
+#yellow_background {
+  background-color: yellow;
+}
+
+#moon {
+  padding-left: 10%;
+}
+#satellite {
+  padding-left: 90%;
+}
+#rocket {
+  padding-left: 90%;
+}
+#astronaut {
+  padding-left: 10%;
 }
