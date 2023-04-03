@@ -37,7 +37,7 @@ For example, here's the code for one of the mountain layers:
 This layer has an offset of 0 (i.e. it's at the top of the page), a speed of -0.6 (i.e. it moves up the page as the user scrolls down).
 
 ### Images and Text
-The app also includes several images and blocks of text that move with the parallax effect. These are simply defined using standard HTML <img> and <div> tags, but are wrapped in ParallaxLayer components to enable the parallax effect.
+The app also includes several images and blocks of text that move with the parallax effect. These are simply defined using standard HTML `img` and `<div>` tags, but are wrapped in ParallaxLayer components to enable the parallax effect.
 
 For example, here's the code for the moon image:
 
