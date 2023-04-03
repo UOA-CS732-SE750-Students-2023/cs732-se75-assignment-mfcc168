@@ -24,7 +24,7 @@ Customizable speed and opacity for each layer
 The code for this parallax animation app is written in JavaScript using React and React Spring. Here's a brief overview of how the code works:
 
 ### Parallax Layers
-The main feature of this app is the parallax effect, which is achieved using React Spring's Parallax and ParallaxLayer components. Each layer of the animation is defined using a ParallaxLayer component, which takes a variety of props including the offset (how far down the page the layer should be), the speed (how quickly the layer should move), and the style (any additional CSS styles to apply).
+The main feature of this app is the parallax effect, which is achieved using React Spring's Parallax and ParallaxLayer components. Each layer of the animation is defined using a ParallaxLayer component, which takes a variety of props including the offset (how far down the page the layer should be), the speed (how quickly the layer should move).
 
 For example, here's the code for one of the mountain layers:
 
