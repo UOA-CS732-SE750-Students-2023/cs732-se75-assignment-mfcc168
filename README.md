@@ -28,11 +28,12 @@ The main feature of this app is the parallax effect, which is achieved using Rea
 
 For example, here's the code for one of the mountain layers:
 
-javascript
-Copy code
+```
 <ParallaxLayer offset={0} speed={-0.6}>
   <div className="animation_layer parallax" id="mountain3"></div>
 </ParallaxLayer>
+```
+
 This layer has an offset of 0 (i.e. it's at the top of the page), a speed of -0.6 (i.e. it moves up the page as the user scrolls down), and a CSS class of "animation_layer parallax" to apply additional styling.
 
 ### Images and Text
