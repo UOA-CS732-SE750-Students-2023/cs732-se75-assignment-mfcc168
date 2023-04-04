@@ -6,32 +6,32 @@
 
 #title {
   font-size: 40px;
-  color: orange;
+  color: cyan;
 }
 
 #content {
   font-size: 21px;
-  color: orange;
+  color: cyan;
 }
 
-.animation, .animation_layer {
+.parallax, .parallax_layer {
 	height: 1000px;
 }
 
-.animation {
+.parallax {
   display: block;
 	position: relative;
 	z-index: 10;
 }
 
-.animation_layer {
+.parallax_layer {
 	background-position: bottom center;
 	background-size: auto 1038px;
 	background-repeat: repeat-x;
 	width: 100%;
 	position: absolute;
 }
-.animation_layer.parallax {
+.parallax_layer.parallax {
 	position: fixed;
 }
 
