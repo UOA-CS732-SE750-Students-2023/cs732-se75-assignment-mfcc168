@@ -48,7 +48,7 @@ function Galaxy() {
           <div className="galaxy_layer" id="r_12"></div>
         </ParallaxLayer>
 
-        <ParallaxLayer sticky={{ start: 9, end: 9  }} onClick={() => ref.current.scrollTo(0)}>
+        <ParallaxLayer sticky={{ start: 9, end: 10  }} onClick={() => ref.current.scrollTo(0)}>
           <div className="galaxy_layer" id="r_03"></div>
           <div className="galaxy_layer" id="r_04"></div>
           <div className="galaxy_layer" id="r_10"></div>

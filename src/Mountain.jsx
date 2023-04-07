@@ -17,7 +17,7 @@ function Mountain() {
         <ParallaxLayer offset={0} speed={-0.5} factor={1.5}>
           <div className="mountain_layer" id="mountain_2"></div>
         </ParallaxLayer>
-        <ParallaxLayer offset={0} speed={-0.25} factor={1.5}>
+        <ParallaxLayer offset={0} speed={-0.1} factor={1.5}>
           <div className="mountain_layer" id="mountain_1"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={2} horizontal={true}>
