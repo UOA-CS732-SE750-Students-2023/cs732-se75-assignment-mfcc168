@@ -1,0 +1,85 @@
+#title {
+  padding-top: 5%;
+  font-size: 40px;
+  color: white;
+}
+
+#content {
+  font-size: 21px;
+  color: white;
+}
+
+.galaxy, .galaxy_layer {
+	height: 100%;
+}
+
+.galaxy {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.galaxy_layer {
+	background-position: bottom center;
+	background-size: auto 100%;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.galaxy_layer.galaxy {
+	position: fixed;
+}
+
+#r_01 {
+  background-image: url(./images/r_01.png);
+}
+
+#r_02 {
+  background-image: url(./images/r_02.png);
+}
+
+#r_03 {
+  background-image: url(./images/r_03.png);
+}
+
+#r_04 {
+  background-image: url(./images/r_04.png);
+}
+
+#r_05 {
+  background-image: url(./images/r_05.png);
+}
+
+#r_06 {
+  background-image: url(./images/r_06.png);
+}
+
+#r_07 {
+  background-image: url(./images/r_07.png);
+}
+
+#r_08 {
+  background-image: url(./images/r_08.png);
+}
+
+#r_09 {
+  background-image: url(./images/r_09.png);
+}
+
+#r_10 {
+  background-image: url(./images/r_10.png);
+}
+
+#r_11 {
+  background-image: url(./images/r_11.png);
+}
+
+#r_12 {
+  background-image: url(./images/r_12.png);
+}
+
+#r_13 {
+  background-image: url(./images/r_13.png);
+}
+
+
