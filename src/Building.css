@@ -1,0 +1,41 @@
+.building, .building_layer {
+	height: 100%;
+}
+
+.building {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.building_layer {
+	background-position: bottom center;
+  padding-left: 500%;
+	position: absolute;
+  background-size: auto 100%;
+	background-repeat: repeat-x;
+  width: 100%;
+}
+.building_layer.building {
+	position: fixed;
+}
+
+#sky_02 {
+  background-image: url(./images/sky_02.png);
+}
+#building_01 {
+  background-image: url(./images/building_01.png);
+}
+#building_02 {
+  background-image: url(./images/building_02.png);
+}
+#road_01 {
+  background-image: url(./images/road_01.png);
+}
+#smoke_01 {
+  background-image: url(./images/smoke_01.png);
+}
+#ruins_01 {
+  background-image: url(./images/ruins_01.png);
+}
+

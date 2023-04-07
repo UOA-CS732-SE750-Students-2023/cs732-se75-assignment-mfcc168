@@ -1,0 +1,60 @@
+#content {
+  font-size: 21px;
+  padding-top: 30%;
+  color: white;
+}
+
+.mountain, .mountain_layer {
+	height: 100%;
+}
+
+.mountain {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.mountain_layer {
+	background-position: bottom center;
+	background-size: auto 100%;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.mountain_layer.mountain {
+	position: fixed;
+}
+
+#sky_01 {
+  background-image: url(./images/sky_01.png);
+}
+
+#mountain_1 {
+  background-image: url(./images/mountain_1.png);
+}
+
+#mountain_2 {
+  background-image: url(./images/mountain_2.png);
+}
+
+#mountain_3 {
+  background-image: url(./images/mountain_3.png);
+}
+
+#man_01 {
+  background-image: url(./images/man01.png);
+}
+
+#sun_01 {
+  background-image: url(./images/sun_01.png);
+}
+
+#green_background {
+  background-color: #5c7b21;
+}
+
+#cloud_01 {
+  background-image: url(./images/cloud_01.png);
+  padding-left: 250%;
+  height: 75%;
+}
