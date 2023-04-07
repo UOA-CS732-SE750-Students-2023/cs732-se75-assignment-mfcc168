@@ -1,23 +1,11 @@
-.building, .building_layer {
-	height: 100%;
-}
-
-.building {
-  display: block;
-	position: relative;
-	z-index: 10;
-}
-
 .building_layer {
+  height: 100%;
 	background-position: bottom center;
   padding-left: 500%;
 	position: absolute;
   background-size: auto 100%;
 	background-repeat: repeat-x;
   width: 100%;
-}
-.building_layer.building {
-	position: fixed;
 }
 
 #sky_02 {
